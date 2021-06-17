@@ -1,0 +1,139 @@
+* {
+	padding: 0;
+	margin:	0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*NAV BAR*/
+.navbar img {
+	width: 7rem;
+	height: 7rem;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*HOME PAGE*/
+.page-header {
+	font-size: 1.25rem;
+	color: #fff;
+}
+
+.introname {
+	font-size: 4rem;
+}
+
+.introtitle {
+	font-size: 2rem;
+	color: #51cddb;
+}
+
+.sectionfont {
+	font-size: 3rem;
+	color: #51cddb;
+	margin-top: 4rem;
+	margin-bottom: 3rem;
+}
+
+.introquote {
+	font-size: 1rem;
+	font-style: italic;
+	color: #fff;
+}
+
+.profile-pic {
+	width: 25rem;
+	height: 25rem;
+	border-radius: 2rem;
+}
+
+
+/*ABOUT ME*/
+.aboutme {
+	font-size: 1.25rem;
+	color: #fff;
+}
+
+.grad-pic {
+	width: 25rem;
+	height: 25rem;
+	margin-bottom: 6rem;
+	border-radius: 2rem;
+}
+
+/*WORK EXPERIENCE*/
+.workdescription, ul, li{
+	color: #fff;
+}
+
+#emerson {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 2rem;
+	width: 17rem;
+	height: 9rem;
+}
+
+#chevron {
+	display: block;
+	padding-top: 10px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 2rem;
+	width: 11rem;
+	height: 9rem;	
+}
+
+/*MY HOBBIES*/
+#pic1, #pic2, #pic3 {
+	width: 20rem;
+	height: 20rem;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 2rem;
+  	border-radius: 2rem;
+ }
+
+ .hobbies {
+	color: #fff;
+}
+
+
+/*SKILLSET*/
+.progress {
+	background: transparent;
+	height: 4.5rem;
+	border-style: solid white;
+}
+
+#percentage {
+	color: #fff;
+}
+
+#jslogo, #csslogo, #htmllogo, #bslogo {
+	width: 3rem;
+	margin: 20rem;
+}
+
+#skillsize {
+	width: 60rem;
+}
+
+
+/*FOOTER*/
+#links {
+	width: 2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.footer {
+	background-color: #084C57;
+}
+
+.footer a {
+	color: black;
+	text-decoration: none;
+}
+
