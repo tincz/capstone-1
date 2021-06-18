@@ -5,6 +5,21 @@
 	font-family: 'Poppins', sans-serif;
 }
 
+/*font-family: 'Dancing Script', cursive;*/
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Prompt', sans-serif;*/
+/*font-family: 'Staatliches', cursive;*/
+
+.gradient {
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(8,8,18,1) 28%, rgba(32,37,42,1) 72%, rgba(71,74,76,1) 100%, rgba(93,96,96,1) 100%, rgba(101,105,104,1) 100%);
+}
+
+.gradient2 {
+	background: rgb(0,0,0);
+	background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(8,8,18,1) 28%, rgba(32,37,42,1) 72%, rgba(71,74,76,1) 100%, rgba(93,96,96,1) 100%, rgba(101,105,104,1) 100%);
+}
+
 /*NAV BAR*/
 .navbar img {
 	width: 7rem;
@@ -30,11 +45,12 @@
 .sectionfont {
 	font-size: 3rem;
 	color: #51cddb;
-	margin-top: 4rem;
-	margin-bottom: 3rem;
+	margin: auto;
+	padding-bottom: 3rem;
 }
 
 .introquote {
+	font-family: 'Poppins', sans-serif;
 	font-size: 1rem;
 	font-style: italic;
 	color: #fff;
@@ -46,18 +62,19 @@
 	border-radius: 2rem;
 }
 
-
 /*ABOUT ME*/
-.aboutme {
-	font-size: 1.25rem;
-	color: #fff;
-}
-
 .grad-pic {
 	width: 25rem;
 	height: 25rem;
-	margin-bottom: 6rem;
 	border-radius: 2rem;
+}
+
+.aboutmeinfo {
+	font-size: 1.5rem;
+	color: white;
+	font-family: 'Prompt', sans-serif;
+	font-style: bold;
+	margin: auto;
 }
 
 /*WORK EXPERIENCE*/
@@ -104,36 +121,64 @@
 .progress {
 	background: transparent;
 	height: 4.5rem;
-	border-style: solid white;
+	outline-style: solid;
+	outline-color: white;
 }
 
 #percentage {
 	color: #fff;
+	margin: auto;
 }
 
 #jslogo, #csslogo, #htmllogo, #bslogo {
 	width: 3rem;
-	margin: 20rem;
+	margin: 2rem;
 }
 
 #skillsize {
 	width: 60rem;
 }
 
+/*CONTACT ME*/
+li {
+	list-style: none;
+}
+
+.mapouter {
+	margin: auto;
+}
+
+.contactlogo {
+	width: 2rem;
+	height: 2rem;
+	margin-right: 2rem;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	color: #ffc107;
+}
+
+ul {
+	padding: 0px;
+	margin: auto;
+}
 
 /*FOOTER*/
 #links {
 	width: 2rem;
 	margin-left: 2rem;
 	margin-right: 2rem;
+	margin-bottom: 1rem;
 }
 
 .footer {
-	background-color: #084C57;
+	background-color: black;
 }
 
 .footer a {
-	color: black;
+	color: white;
 	text-decoration: none;
+	font-size: 1rem;
 }
 
